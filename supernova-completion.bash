@@ -8,3 +8,5 @@ _supernova()
     COMPREPLY=( $(compgen -W "${possibilities}" -- $cur) )
 }
 complete -F _supernova supernova
+
+#will only complete for available supernova environments
